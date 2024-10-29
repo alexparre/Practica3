@@ -1,0 +1,110 @@
+<link rel="stylesheet" href="./sport.css" />
+<script src="./script.js" defer></script>
+
+<custom-search>
+  <div class="flex p-10 shadow-md min-h-60px">
+    <div class="dropdown">
+      <button class="dropbtn" onclick="myFunction()">≡</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="index.html">Home</a>
+        <a href="uspolitics.html">US Politics</a>
+        <a href="sport.html">Sport</a>
+        <a href="business.html">Business</a>
+        <a href="innovation.html">Innovation</a>
+        <a href="culture.html">Culture</a>
+        <a href="arts.html">Arts</a>
+        <a href="travel.html">Travel</a>
+
+
+      </div>
+    </div>
+
+    <span class="logo">
+      <span class="logo-item">A</span>
+      <span class="logo-item">G</span>
+      <span class="logo-item">V</span>
+    </span>
+    <button class="dialog-search transparent">🔍</button>
+  </div>
+  <dialog>
+    <button class="close-btn">🗙</button>
+    <h1>Search</h1>
+    <input type="search" id="site-search" name="q" />
+
+    <template>
+      <li>
+        <div class="flex flex-col items-center card">
+          <img class="object-cover item-image" src="https://flowbite.com/docs/images/blog/image-4.jpg">
+          <div class="flex flex-col justify-between">
+            <h5 class="item-title">{value}</h5>
+
+            <relative-time time="Wed Oct 16 2024 11:12:41 GMT+0200" />
+          </div>
+        </div>
+      </li>
+    </template>
+
+    <ul id="search-results">
+    </ul>
+  </dialog>
+</custom-search>
+
+
+<nav class="nav-bar">
+  <a href="index.html">Home</a>
+  <a href="uspolitics.html" class="active">US Politics</a>
+  <a href="sport.html">Sport</a>
+  <a href="business.html">Business</a>
+  <a href="innovation.html">Innovation</a>
+  <a href="culture.html">Culture</a>
+  <a href="arts.html">Arts</a>
+  <a href="travel.html" >Travel</a>
+
+
+</nav>
+<main>
+    <h1>US Politics News</h1>
+<div class="grid-container">
+  
+  <div class="grid-item">
+    
+    <img
+      src="https://ichef.bbci.co.uk/news/1536/cpsprodpb/61f3/live/260aa840-91dc-11ef-89ae-5575c76d98e6.jpg.webp"
+      alt="Noticia 1">
+    
+      <a href="article.html?id=1"><h2>Why Harris moved from 'joy' to calling Trump 'a fascist'</h2></a>
+    
+    <relative-time time="2024-10-23T10:20:00Z"/>
+  
+  </div>
+
+  <div class="grid-item">
+    
+
+    
+    <img
+      src="https://ichef.bbci.co.uk/ace/standard/1536/cpsprodpb/faed/live/dfdb4a30-920f-11ef-b3c2-754b6219680e.png.webp"
+      alt="Noticia 2">
+      <a href="article.html?id=2"><h2>Harris makes star-studded final push as Trump heads to key swing states</h2></a>
+    
+    <relative-time time="2024-10-22T10:20:00Z"></relative-time>
+  </div>
+  <div class="grid-item">
+    
+    <img src="https://ichef.bbci.co.uk/news/1536/cpsprodpb/e970/live/8d83cdb0-9512-11ef-8e6d-e3e64e16c628.jpg.webp" alt="Noticia 3">
+    <a href="article.html?id=8"><h2>Backlash after Trump rally speaker calls Puerto Rico 'island of garbage'</h2></a>
+    
+    <relative-time time="2024-10-23T10:20:00Z"></relative-time>
+  </div>
+  <div class="grid-item">
+
+    <img
+      src="https://ichef.bbci.co.uk/news/640/cpsprodpb/1b94/live/a1c1b120-95cb-11ef-9260-19e6a950e830.jpg.webp"
+      alt="Noticia 4">
+      <a href="article.html?id=46"><h2>Inside Trump's push to recruit an army of volunteers in battleground Georgia</h2></a>
+  
+    <relative-time time="2024-10-23T10:20:00Z"></relative-time>
+  </div>
+
+</div>
+</main>

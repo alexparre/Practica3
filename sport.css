@@ -1,0 +1,239 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  .logo {
+    color: white;
+    text-align: center;
+    margin: auto;
+    .logo-item {
+      background: black;
+      padding: 10px;
+      margin: 5px;
+    }
+  }
+  
+  
+  custom-article article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  custom-article article img {
+    max-width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  custom-article article h1 {
+    margin-top: 0.5rem;
+    font-size: 2rem;
+  }
+  
+  custom-article article p {
+    
+    text-align: center;
+  }
+  
+  .flex {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  
+  .min-h-60px {
+    min-height: 60px;
+  }
+  
+  .p-10 {
+    padding: 10px;
+  }
+  
+  .shadow-md {
+    box-shadow: 0 0 10px #00000061;
+  }
+  
+  .transparent {
+    background: transparent;
+  }
+  
+  .dialog-search {
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  .menu-toggle {
+    border: none;
+    cursor: pointer;
+    padding: 0px 20px;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: math;
+  }
+  
+  .close-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  dialog {
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 0 10px #00000061;
+    width: min(400px, 100%);
+    padding: 20px;
+    position: absolute;
+    text-align: center;
+  }
+  #search-results {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .disabled {
+    color: #ccc;
+    user-select: none;
+  }
+  #site-search {
+    border: 2px solid #000;
+    height: 2em;
+    text-indent: 10px;
+    width: 100%;
+  }
+  
+  .card {
+    position: relative;
+    box-shadow: 0 0 10px lightgray;
+    border-radius: 2%;
+    overflow: hidden;
+    padding: 10px 10px 10px 0;
+    img {
+      width: 80px;
+      object-fit: cover;
+    }
+  
+    .flex-col {
+      flex-flow: column;
+    }
+  
+    h5 {
+      margin: 0;
+      padding: 0;
+    }
+  
+    p {
+      font-size: x-small;
+      color: gray;
+    }
+    relative-time {
+      font-size: x-small;
+    }
+  }
+  
+  main {
+    width: min(900px, 100%);
+    margin: auto;
+    text-align: center;
+  }
+  
+  /* Dropdown Button */
+  .dropbtn {
+    
+    background-color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown button on hover & focus */
+  
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+  
+  .nav-bar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    text-align: center;
+  }
+  .nav-bar a {
+    color: #000000;
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 14px;
+  }
+  
+  .nav-bar a:hover {
+    background-color: #f4f4f4;
+  }
+  .nav-bar a.active {
+    
+     /* Color del texto para el botón activo */
+    font-weight: bold;
+    border-bottom: 4px solid #000000;
+  }
+  .grid-container {
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: repeat(3, 1fr);;
+    
+    max-width: 100%; 
+    margin: 0 auto; 
+    padding: 20px;
+  }
+  .grid-item a {
+    color: black;
+    text-decoration: none; 
+  }
+  .grid-item a:hover {
+    color: black;
+    text-decoration:  underline;
+  }
+  
+  .grid-item img {
+    max-width: 100%; 
+    height: auto; 
+    display: block;
+  }
+  
+  

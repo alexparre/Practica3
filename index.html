@@ -1,0 +1,152 @@
+<link rel="stylesheet" href="./styles.css" />
+<script src="./script.js" defer></script>
+
+<custom-search>
+  <div class="flex p-10 shadow-md min-h-60px">
+    <div class="dropdown">
+      <button class="dropbtn" onclick="myFunction()">≡</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="#">Home</a>
+        <a href="uspolitics.html">US Politics</a>
+        <a href="sport.html">Sport</a>
+        <a href="business.html">Business</a>
+        <a href="innovation.html">Innovation</a>
+        <a href="culture.html">Culture</a>
+        <a href="arts.html">Arts</a>
+        <a href="travel.html">Travel</a>
+
+
+      </div>
+    </div>
+
+    <span class="logo">
+      <span class="logo-item">A</span>
+      <span class="logo-item">G</span>
+      <span class="logo-item">V</span>
+    </span>
+    <button class="dialog-search transparent">🔍</button>
+  </div>
+  <dialog>
+    <button class="close-btn">🗙</button>
+    <h1>Search</h1>
+    <input type="search" id="site-search" name="q" />
+
+    <template>
+      <li>
+        <div class="flex flex-col items-center card">
+          <img class="object-cover item-image" src="https://flowbite.com/docs/images/blog/image-4.jpg">
+          <div class="flex flex-col justify-between">
+            <h5 class="item-title">{value}</h5>
+
+            <relative-time time="Wed Oct 16 2024 11:12:41 GMT+0200" />
+          </div>
+        </div>
+      </li>
+    </template>
+
+    <ul id="search-results">
+    </ul>
+  </dialog>
+</custom-search>
+
+
+<nav class="nav-bar">
+  <a href="#">Home</a>
+  <a href="uspolitics.html">US Politics</a>
+  <a href="sport.html">Sport</a>
+  <a href="business.html">Business</a>
+  <a href="innovation.html">Innovation</a>
+  <a href="culture.html">Culture</a>
+  <a href="arts.html">Arts</a>
+  <a href="travel.html">Travel</a>
+
+
+</nav>
+
+<div class="grid-container">
+  
+  <div class="grid-item">
+    
+    <img
+      src="https://ichef.bbci.co.uk/news/1536/cpsprodpb/61f3/live/260aa840-91dc-11ef-89ae-5575c76d98e6.jpg.webp"
+      alt="Noticia 1">
+    
+      <a href="article.html?id=1"><h2>Why Harris moved from 'joy' to calling Trump 'a fascist'</h2></a>
+    <p>The shift in message is a bid to win over moderate Republicans - but the former president accuses her of peddling lies.</p>
+    <relative-time time="2024-10-23T10:20:00Z"></relative-time>
+  
+  </div>
+
+  <div class="grid-item">
+    
+    <div class="video__icon">
+      <div class="circle--outer"></div>
+      <div class="circle--inner"></div>
+      
+    </div>
+    
+    <img
+      src="https://ichef.bbci.co.uk/ace/standard/1536/cpsprodpb/faed/live/dfdb4a30-920f-11ef-b3c2-754b6219680e.png.webp"
+      alt="Noticia 2">
+      <a href="article.html?id=2"><h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: e50040; font-weight: bold;">LIVE</span>&nbsp;Harris makes star-studded final push as Trump heads to key swing states</h1></a>
+    <p>The presidential candidates are ramping up their campaigns as the race enters its final stretch.</p>
+    <relative-time time="2024-10-22T10:20:00Z"></relative-time>
+  </div>
+  <div class="grid-item">
+    
+    <img src="https://ichef.bbci.co.uk/images/ic/1024xn/p0jx1dq5.jpg.webp" alt="Noticia 3">
+    <a href="article.html?id=3"><h2>The far-flung 'Hawaii of Europe'</h2></a>
+    <p>With its tropical climate, looming volcanic mountains and stunning black-sand beaches, it's no wonder Madeira, Portugal, has been called the "Hawaii of Europe".</p>
+    <relative-time time="2024-10-23T10:20:00Z"></relative-time>
+  </div>
+  <div class="grid-item">
+
+    <img
+      src="https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/87e9/live/3fb16230-94f6-11ef-97c2-c9d3e1071e66.jpg.webp"
+      alt="Noticia 4">
+      <a href="article.html?id=10"><h3>Curry injured in Warriors' defeat against Clippers</h3></a>
+    <p>Downing Street insists a discussion about the issue is not on the agenda for the summit of 56 Commonwealth countries.</p>
+    <relative-time time="2024-10-20T10:20:00Z"></relative-time>
+  </div>
+  <div class="grid-item">
+    
+    <img
+      src="https://ichef.bbci.co.uk/news/1024/cpsprodpb/2794/live/326830a0-9315-11ef-a741-5bc7ceeb685a.jpg.webp"
+      alt="Noticia 5">
+      <a href="article.html?id=24"><h1>Trump and Vance possible targets of China-backed cyber attack</h1></a>
+    <p>Recent intelligence reports have raised alarms about possible cyber attacks against high-profile figures.</p>
+    <relative-time time="2024-10-18T18:45:00Z"></relative-time>
+  </div>
+  <div class="grid-item">
+
+    <img src="https://ichef.bbci.co.uk/news/1536/cpsprodpb/ee68/live/c0811de0-6942-11ef-a2c8-e7f3cb9fc0ea.jpg.webp" alt="Noticia 6">
+    <a href="article.html?id=6"><h2>The journey that helped save Nigeria's art for the nation</h2></a>
+    <p>Olugbile Holloway, the new head of Nigeria’s National Museum, aims to redefine its role by returning artifacts to their original contexts across the country.</p>
+    <relative-time time="2024-10-19T10:20:00Z"></relative-time>
+  </div>
+  <div class="grid-item">
+
+    <img
+      src="https://ichef.bbci.co.uk/news/480/cpsprodpb/c735/live/f2d7d3d0-9514-11ef-9cde-517ea4c35d17.jpg.webp"
+      alt="Noticia 7">
+      <a href="article.html?id=29"><h3>Michael Parkinson's son defends new AI podcast</h3></a>
+    <p>In a groundbreaking move, the late Michael Parkinson's voice and personality are set to be brought back through artificial intelligence for a new podcast.</p>
+    <relative-time time="2024-10-20T15:30:00Z"></relative-time>
+  </div>
+  <div class="grid-item">
+    
+    <img
+      src="https://ichef.bbci.co.uk/news/1536/cpsprodpb/e970/live/8d83cdb0-9512-11ef-8e6d-e3e64e16c628.jpg.webp"
+      alt="Noticia 8">
+      <a href="article.html?id=8"><h1>Backlash after Trump rally speaker calls Puerto Rico 'island of garbage'</h1></a>
+      <p></p>
+    <relative-time time="2024-10-23T10:20:00Z"></relative-time>
+  </div>
+  <div class="grid-item">
+   
+    <img src="https://ichef.bbci.co.uk/images/ic/1920x1080/p0k06gpd.jpg.webp">
+    <a href="article.html?id=9"><h4>How smartwatches are saving lives</h1></a>
+    <p>Smartwatches gather vast amounts of data about our physiology. Now their technology is being harnessed like never before.</p>
+    <relative-time time="2024-10-23T10:20:00Z"></relative-time>
+  </div>
+</div>

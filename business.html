@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./sport.css" />
+  <script src="./script.js" defer></script>
+</head>
+
+<custom-search>
+    <div class="flex p-10 shadow-md min-h-60px">
+      <div class="dropdown">
+        <button class="dropbtn" onclick="myFunction()">≡</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="index.html">Home</a>
+          <a href="uspolitics.html">US Politics</a>
+          <a href="sport.html">Sport</a>
+          <a href="business.html">Business</a>
+          <a href="innovation.html">Innovation</a>
+          <a href="culture.html">Culture</a>
+          <a href="arts.html">Arts</a>
+          <a href="travel.html">Travel</a>
+
+
+        </div>
+      </div>
+  
+      <span class="logo">
+        <span class="logo-item">A</span>
+        <span class="logo-item">G</span>
+        <span class="logo-item">V</span>
+      </span>
+      <button class="dialog-search transparent">🔍</button>
+    </div>
+    <dialog>
+      <button class="close-btn">🗙</button>
+      <h1>Search</h1>
+      <input type="search" id="site-search" name="q" />
+  
+      <template>
+        <li>
+          <div class="flex flex-col items-center card">
+            <img class="object-cover item-image" src="https://flowbite.com/docs/images/blog/image-4.jpg">
+            <div class="flex flex-col justify-between">
+              <h5 class="item-title">{value}</h5>
+              <relative-time time="Wed Oct 16 2024 11:12:41 GMT+0200" />
+            </div>
+          </div>
+        </li>
+      </template>
+  
+      <ul id="search-results">
+      </ul>
+    </dialog>
+  </custom-search>
+  <header>
+    <nav class="nav-bar">
+      <a href="index.html">Home</a>
+      <a href="uspolitics.html">US Politics</a>
+     <a href="sport.html" >Sport</a>
+      <a href="business.html" class="active">Business</a>
+      <a href="innovation.html">Innovation</a>
+      <a href="culture.html">Culture</a>
+      <a href="arts.html">Arts</a>
+      <a href="travel.html">Travel</a>
+
+
+
+    </nav>
+  </header>
+
+  <main>
+    <h1>Business News</h1>
+    <div class="grid-container">
+      
+      <div class="grid-item">
+        <img src="https://ichef.bbci.co.uk/news/1024/cpsprodpb/e00f/live/664ea300-94d1-11ef-9dbc-891a897d5938.jpg.webp" alt="Mcdonald">
+        <a href="article.html?id=16"><h2>McDonald's Quarter Pounder back after E. coli outbreak</h2></a>
+        <relative-time time="2024-10-20T15:30:00Z"></relative-time>
+        
+      </div>
+
+      <div class="grid-item">
+        <img src="https://ichef.bbci.co.uk/news/640/cpsprodpb/e308/live/394e0570-950e-11ef-875b-053ddaf3f72b.png.webp" alt="Cheese">
+        <a href="article.html?id=17"><h2>Stolen cheese might be sold abroad - supplier</h2></a>
+        
+        <relative-time time="2024-10-20T15:30:00Z"></relative-time>
+      </div>
+
+      <div class="grid-item">
+        <img src="https://ichef.bbci.co.uk/news/1536/cpsprodpb/50a2/live/dd58b3e0-9405-11ef-8e6d-e3e64e16c628.png.webp" alt="Investigation">
+        <a href="article.html?id=18"><h2>Get ready to face harsh reality, Starmer to warn</h2></a>
+        
+        <relative-time time="2024-10-18T18:45:00Z"></relative-time>
+      </div>
+
+      <div class="grid-item">
+        <img src="https://ichef.bbci.co.uk/news/640/cpsprodpb/2845/live/9631d330-94f9-11ef-8e6d-e3e64e16c628.jpg.webp" alt="Oil">
+        <a href="article.html?id=19"><h2>World's most indebted oil firm is headache for new Mexico leader</h2></a>
+        
+        <relative-time time="2024-10-17T14:10:00Z"></relative-time>
+      </div>
+
+      <div class="grid-item">
+        <img src="https://ichef.bbci.co.uk/news/1536/cpsprodpb/1fd3/live/5cebfca0-908e-11ef-a624-634f82a66078.jpg.webp" alt="Basketball Playoffs">
+        <a href="article.html?id=20"><h2>Tariffs hurt his business. He's voting for Trump anyway</h2></a>
+        <relative-time time="2024-10-15T21:00:00Z"></relative-time>
+      </div>
+
+      <div class="grid-item">
+        <img src="https://ichef.bbci.co.uk/news/1024/cpsprodpb/6f37/live/9aeebb30-92d9-11ef-9e9f-f94aa162b9ae.jpg.webp" alt="Couple Google">
+        <a href="article.html?id=21"><h2>The couple who took on Google and cost the tech giant £2bn</h2></a>
+        
+        <relative-time time="2024-10-12T09:15:00Z"></relative-time>
+      </div>
+
+    </div>
+  </main>
+
+</body>
+</html>

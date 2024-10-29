@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./sport.css" />
+  <script src="./script.js" defer></script>
+</head>
+
+<custom-search>
+    <div class="flex p-10 shadow-md min-h-60px">
+      <div class="dropdown">
+        <button class="dropbtn" onclick="myFunction()">≡</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="index.html">Home</a>
+          <a href="uspolitics.html">US Politics</a>
+          <a href="sport.html">Sport</a>
+          <a href="business.html">Business</a>
+          <a href="innovation.html">Innovation</a>
+          <a href="culture.html">Culture</a>
+          <a href="arts.html">Arts</a>
+          <a href="travel.html">Travel</a>
+
+
+        </div>
+      </div>
+  
+      <span class="logo">
+        <span class="logo-item">A</span>
+        <span class="logo-item">G</span>
+        <span class="logo-item">V</span>
+      </span>
+      <button class="dialog-search transparent">🔍</button>
+    </div>
+    <dialog>
+      <button class="close-btn">🗙</button>
+      <h1>Search</h1>
+      <input type="search" id="site-search" name="q" />
+  
+      <template>
+        <li>
+          <div class="flex flex-col items-center card">
+            <img class="object-cover item-image" src="https://flowbite.com/docs/images/blog/image-4.jpg">
+            <div class="flex flex-col justify-between">
+              <h5 class="item-title">{value}</h5>
+
+              <relative-time time="Wed Oct 16 2024 11:12:41 GMT+0200" />
+            </div>
+          </div>
+        </li>
+      </template>
+  
+      <ul id="search-results">
+      </ul>
+    </dialog>
+  </custom-search>
+  <header>
+    <nav class="nav-bar">
+      <a href="index.html">Home</a>
+      <a href="uspolitics.html">US Politics</a>
+     <a href="sport.html" >Sport</a>
+      <a href="business.html" >Business</a>
+      <a href="innovation.html">Innovation</a>
+      <a href="culture.html">Culture</a>
+      <a href="arts.html " class="active">Arts</a>
+      <a href="travel.html">Travel</a>
+
+
+
+    </nav>
+  </header>
+
+  <main>
+    <h1>Arts News</h1>
+    <div class="grid-container">
+      
+      <div class="grid-item">
+        <img src="https://ichef.bbci.co.uk/images/ic/1920x1080/p0jz48hm.jpg.webp" alt="Mcdonald">
+        <a href="article.html?id=34"><h2>How Monet's paintings changed the way we see London</h2></a>
+        <relative-time time="2024-10-20T15:30:00Z"></relative-time>
+        
+      </div>
+
+      <div class="grid-item">
+        <img src="https://ichef.bbci.co.uk/images/ic/raw/p0jqb6l4.jpg.webp" alt="Cheese">
+        <a href="article.html?id=35"><h2>Forgotten fighters of the Haitian Revolution</h2></a>
+        
+        <relative-time time="2024-10-20T15:30:00Z"></relative-time>
+      </div>
+
+      <div class="grid-item">
+        <img src="https://ichef.bbci.co.uk/images/ic/1376x774/p0hvyjbs.jpg.webp" alt="Investigation">
+        <a href="article.html?id=36"><h2>Dalí talks about his iconic 'aggressive' moustache</h2></a>
+        
+        <relative-time time="2024-10-18T18:45:00Z"></relative-time>
+      </div>
+
+      <div class="grid-item">
+        <img src="https://ichef.bbci.co.uk/images/ic/1024xn/p0j9m5gc.jpg.webp" alt="Oil">
+        <a href="article.html?id=37"><h2>Ida Hammershøi: The identity of art's most famous 'faceless woman'</h2></a>
+        
+        <relative-time time="2024-10-17T14:10:00Z"></relative-time>
+      </div>
+
+      <div class="grid-item">
+        <img src="https://ichef.bbci.co.uk/images/ic/800xn/p0jz4b2z.jpg.webp" alt="Basketball Playoffs">
+        <a href="article.html?id=38"><h2>AI art: The end of creativity or the start of a new movement?</h2></a>
+        <relative-time time="2024-10-15T21:00:00Z"></relative-time>
+      </div>
+
+      <div class="grid-item">
+        <img src="https://ichef.bbci.co.uk/images/ic/320x180/p0fmhnb3.jpg.webp" alt="Couple Google">
+        <a href="article.html?id=39"><h2>Why Korea's moon jar is so iconic</h2></a>
+        
+        <relative-time time="2024-10-12T09:15:00Z"></relative-time>
+      </div>
+
+    </div>
+  </main>
+
+</body>
+</html>

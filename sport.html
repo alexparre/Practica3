@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./scripts.js" defer></script>
+  <link rel="stylesheet" href="./sport.css" />
+  <script src="./script.js" defer></script>
+</head>
+
+<custom-search>
+    <div class="flex p-10 shadow-md min-h-60px">
+      <div class="dropdown">
+        <button class="dropbtn" onclick="myFunction()">≡</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="index.html">Home</a>
+          <a href="uspolitics.html">US Politics</a>
+          <a href="sport.html">Sport</a>
+          <a href="business.html">Business</a>
+          <a href="innovation.html">Innovation</a>
+          <a href="culture.html">Culture</a>
+          <a href="arts.html">Arts</a>
+          <a href="travel.html">Travel</a>
+
+
+        </div>
+      </div>
+  
+      <span class="logo">
+        <span class="logo-item">A</span>
+        <span class="logo-item">G</span>
+        <span class="logo-item">V</span>
+      </span>
+      <button class="dialog-search transparent">🔍</button>
+    </div>
+    <dialog>
+      <button class="close-btn">🗙</button>
+      <h1>Search</h1>
+      <input type="search" id="site-search" name="q" />
+  
+      <template>
+        <li>
+          <div class="flex flex-col items-center card">
+            <img class="object-cover item-image" src="https://flowbite.com/docs/images/blog/image-4.jpg">
+            <div class="flex flex-col justify-between">
+              <h5 class="item-title">{value}</h5>
+              <relative-time time="Wed Oct 16 2024 11:12:41 GMT+0200" />
+            </div>
+          </div>
+        </li>
+      </template>
+  
+      <ul id="search-results">
+      </ul>
+    </dialog>
+  </custom-search>
+    <nav class="nav-bar">
+      <a href="index.html">Home</a>
+      <a href="uspolitics.html">US Politics</a>
+     <a href="sport.html" class="active">Sport</a>
+      <a href="business.html">Business</a>
+      <a href="innovation.html">Innovation</a>
+
+      <a href="culture.html">Culture</a>
+      <a href="arts.html">Arts</a>
+      <a href="travel.html">Travel</a>
+
+
+
+    </nav>
+  </header>
+
+  <main>
+    <h1>Sports News</h1>
+    <div class="grid-container">
+      
+      <div class="grid-item">
+        <img src="https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/87e9/live/3fb16230-94f6-11ef-97c2-c9d3e1071e66.jpg.webp" alt="Tennis Championship">
+        <a href="article.html?id=10"><h2>Curry injured in Warriors' defeat against Clippers</h2></a>
+        <relative-time time="2024-10-20T15:30:00Z"></relative-time>
+        
+      </div>
+
+      <div class="grid-item">
+        <img src="https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-1763487225.jpg?c=16x9&q=h_653,w_1160,c_fill/f_webp" alt="City Marathon">
+        <a href="article.html?id=11"><h2>Erik ten Hag fired as manager of Premier League giant Manchester United</h2></a>
+        
+        <relative-time time="2024-10-20T15:30:00Z"></relative-time>
+      </div>
+
+      <div class="grid-item">
+        <img src="https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2180498440.jpg?c=16x9&q=h_653,w_1160,c_fill/f_webp" alt="Soccer Championship">
+        <a href="article.html?id=12"><h2>Lamine Yamal makes history as Barcelona hammers Real Madrid in El Clásico</h2></a>
+        
+        <relative-time time="2024-10-18T18:45:00Z"></relative-time>
+      </div>
+
+      <div class="grid-item">
+        <img src="https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2181267129.jpg?c=16x9&q=h_653,w_1160,c_fill/f_webp" alt="Formula 1 Race">
+        <a href="article.html?id=13"><h2>Los Angeles Dodgers survive late comeback attempt by New York Yankees to take 2-0 lead in World Series</h2></a>
+        
+        <relative-time time="2024-10-17T14:10:00Z"></relative-time>
+      </div>
+
+      <div class="grid-item">
+        <img src="https://media.cnn.com/api/v1/images/stellar/prod/2024-10-26t022004z-552666842-mt1usatoday24584316-rtrmadp-3-mls-mls-cup-playoffs-round-one-atlanta-united-fc-at-inter-miami-cf.jpg?c=16x9&q=h_653,w_1160,c_fill/f_webp" alt="Basketball Playoffs">
+        <a href="article.html?id=14"><h2>Inter Miami beats Atlanta United in Lionel Messi’s MLS playoff debut</h2></a>
+        <relative-time time="2024-10-15T21:00:00Z"></relative-time>
+      </div>
+
+      <div class="grid-item">
+        <img src="https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2162270457.jpg?c=16x9&q=h_653,w_1160,c_fill/f_webp" alt="Olympic Games">
+        <a href="article.html?id=15"><h2>None of the Big Three has won a grand slam this year.</h2></a>
+        
+        <relative-time time="2024-10-12T09:15:00Z"></relative-time>
+      </div>
+
+    </div>
+  </main>
+
+ 
+
+</body>
+</html>

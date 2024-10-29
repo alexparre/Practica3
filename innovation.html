@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="./sport.css" />
+  <script src="./script.js" defer></script>
+</head>
+<custom-search>
+    <div class="flex p-10 shadow-md min-h-60px">
+      <div class="dropdown">
+        <button class="dropbtn" onclick="myFunction()">≡</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="index.html">Home</a>
+          <a href="sport.html">US Politics</a>
+          <a href="sport.html">Sport</a>
+          <a href="business.html">Business</a>
+          <a href="innovation.html">Innovation</a>
+          <a href="culture.html">Culture</a>
+          <a href="arts.html">Arts</a>
+          <a href="travel.html">Travel</a>
+
+
+        </div>
+      </div>
+  
+      <span class="logo">
+        <span class="logo-item">A</span>
+        <span class="logo-item">G</span>
+        <span class="logo-item">V</span>
+      </span>
+      <button class="dialog-search transparent">🔍</button>
+    </div>
+    <dialog>
+      <button class="close-btn">🗙</button>
+      <h1>Search</h1>
+      <input type="search" id="site-search" name="q" />
+  
+      <template>
+        <li>
+          <div class="flex flex-col items-center card">
+            <img class="object-cover item-image" src="https://flowbite.com/docs/images/blog/image-4.jpg">
+            <div class="flex flex-col justify-between">
+              <h5 class="item-title">{value}</h5>
+
+              <relative-time time="Wed Oct 16 2024 11:12:41 GMT+0200" />
+            </div>
+          </div>
+        </li>
+      </template>
+  
+      <ul id="search-results">
+      </ul>
+    </dialog>
+  </custom-search>
+  <header>
+    <nav class="nav-bar">
+      <a href="index.html">Home</a>
+      <a href="sport.html">US Politics</a>
+     <a href="sport.html" >Sport</a>
+      <a href="business.html" >Business</a>
+      <a href="innovation.html" class="active">Innovation</a>
+      <a href="culture.html">Culture</a>
+      <a href="arts.html">Arts</a>
+      <a href="travel.html">Travel</a>
+
+ 
+
+    </nav>
+  </header>
+
+  <main>
+    <h1>Innovation News</h1>
+    <div class="grid-container">
+      
+      <div class="grid-item">
+        <img src="https://ichef.bbci.co.uk/images/ic/1024x576/p0k06p8g.jpg.webp" alt="smartwatch">
+        <a href="article.html?id=22"><h2>How smartwatches are saving lives</h2></a>
+        <relative-time time="2024-10-20T15:30:00Z"></relative-time>
+        
+      </div>
+
+      <div class="grid-item">
+        <img src="https://ichef.bbci.co.uk/images/ic/640x360/p0k06spv.jpg.webp" alt="Cheese">
+        <a href="article.html?id=23"><h2>The twins who invent their own language</h2></a>
+        
+        <relative-time time="2024-10-20T15:30:00Z"></relative-time>
+      </div>
+
+      <div class="grid-item">
+        <img src="https://ichef.bbci.co.uk/news/1024/cpsprodpb/2794/live/326830a0-9315-11ef-a741-5bc7ceeb685a.jpg.webp" alt="Investigation">
+        <a href="article.html?id=24"><h2>Trump and Vance possible targets of China-backed cyber attack</h2></a>
+        
+        <relative-time time="2024-10-18T18:45:00Z"></relative-time>
+      </div>
+
+      <div class="grid-item">
+        <img src="https://ichef.bbci.co.uk/images/ic/640x360/p0jzxv20.jpg.webp" alt="Oil">
+        <a href="article.html?id=25"><h2>The boy who lived a secret life in World of Warcraft</h2></a>
+        
+        <relative-time time="2024-10-17T14:10:00Z"></relative-time>
+      </div>
+
+      <div class="grid-item">
+        <img src="https://ichef.bbci.co.uk/news/640/cpsprodpb/77a6/live/b5ff54b0-92da-11ef-89ae-5575c76d98e6.png.webp" alt="Basketball Playoffs">
+        <a href="article.html?id=26"><h2>The Online Safety Act is one year old. Has it made UK children any safer?</h2></a>
+        <relative-time time="2024-10-15T21:00:00Z"></relative-time>
+      </div>
+
+      <div class="grid-item">
+        <img src="https://ichef.bbci.co.uk/images/ic/raw/p0hdrsmy.jpg.webp" alt="Couple Google">
+        <a href="article.html?id=27"><h2>Tech Decoded: Sign up to our newsletter</h2></a>
+        
+        <relative-time time="2024-10-12T09:15:00Z"></relative-time>
+      </div>
+
+    </div>
+  </main>
+
+</body>
+</html>

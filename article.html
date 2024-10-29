@@ -1,0 +1,89 @@
+<link rel="stylesheet" href="./styles.css"/>
+<script src="./script.js" defer></script>
+
+
+<custom-search>
+  <div class="flex p-10 shadow-md min-h-60px">
+    <div class="dropdown">
+      <button class="dropbtn" onclick="myFunction()">≡</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="index.html">Home</a>
+        <a href="uspolitics.html">US Politics</a>
+        <a href="sport.html">Sport</a>
+        <a href="business.html">Business</a>
+        <a href="innovation.html">Innovation</a>
+        <a href="culture.html">Culture</a>
+        <a href="arts.html">Arts</a>
+        <a href="travel.html">Travel</a>
+
+
+      </div>
+    </div>
+
+    <span class="logo">
+      <span class="logo-item">A</span>
+      <span class="logo-item">G</span>
+      <span class="logo-item">V</span>
+    </span>
+    <button class="dialog-search transparent">🔍</button>
+  </div>
+  <dialog>
+    <button class="close-btn">🗙</button>
+    <h1>Search</h1>
+    <input type="search" id="site-search" name="q" />
+
+    <template>
+      <li>
+        <div class="flex flex-col items-center card">
+          <img class="object-cover item-image" src="https://flowbite.com/docs/images/blog/image-4.jpg">
+          <div class="flex flex-col justify-between">
+            <h5 class="item-title">{value}</h5>
+
+            <relative-time time="Wed Oct 16 2024 11:12:41 GMT+0200" />
+          </div>
+        </div>
+      </li>
+    </template>
+
+    <ul id="search-results">
+    </ul>
+  </dialog>
+</custom-search>
+<nav class="nav-bar">
+  <a href="index.html">Home</a>
+  <a href="uspolitics.html">US Politics</a>
+  <a href="sport.html">Sport</a>
+  <a href="business.html">Business</a>
+  <a href="innovation.html">Innovation</a>
+  <a href="culture.html">Culture</a>
+  <a href="arts.html">Arts</a>
+  <a href="travel.html">Travel</a>
+
+</nav>
+
+<main>
+  <custom-article>
+    <article class="block">
+      <h1>Why Harris moved from 'joy' to calling Trump 'a fascist'</h1>
+      <relative-time time="2024-10-23T10:20:00Z"></relative-time>
+      <img src="https://ichef.bbci.co.uk/news/1536/cpsprodpb/61f3/live/260aa840-91dc-11ef-89ae-5575c76d98e6.jpg.webp">
+      <p>On Wednesday afternoon, Kamala Harris stood in front of the vice-presidential residence in Washington DC, and delivered a short but withering attack on her Republican presidential opponent.
+
+        Calling Donald Trump "increasingly unhinged and unstable", she cited critical comments made by John Kelly, Trump’s former White House Chief of Staff, in a New York Times interview.
+        
+        The vice-president quoted Kelly describing Trump as someone who "certainly falls into the general definition of fascists" and who had spoken approvingly of Hitler several times.
+        
+        She said her rival wanted "unchecked power" and later, during a CNN town hall event, was asked point-blank if she believed he was a "fascist". "Yes, I do," she replied.
+        
+        Shortly after the town hall finished, Trump posted on X and Truth Social that Harris's comments were a sign that she was losing. He said she was "increasingly raising her rhetoric, going so far as to call me Adolf Hitler, and anything else that comes to her warped mind".
+        
+        In the home stretch of political campaigns - particularly one as tight and hard-fought as the 2024 presidential race - there is a natural tendency for candidates to turn negative. Attacks tend to be more effective in motivating supporters to head to the polls and disrupting the opposing campaigns.
+   
+        For Harris, however, the heavier hand toward Trump stands in contrast to the more optimistic, "joyful" messaging of the early days of her campaign.
+        While she did warn at the Democratic convention of a Trump presidency without the guardrails, Harris largely stepped back from President Joe Biden’s core campaign message that Trump posed an existential threat to American democracy.
+        According to political strategist Matt Bennett of the centrist Democratic group Third Way, however, it is clear why Harris was quick this time to amplify Kelly’s dark portrait of Trump as a man with authoritarian tendencies.</p>
+    </article>
+  </custom-article>
+</main>
+
+
